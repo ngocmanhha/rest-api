@@ -1,4 +1,4 @@
-@Library('pipelines-shared-libs') _
+@Library('pipelines-shared-libs')_
 
 import com.test.jenkins.GlobalVars
 import com.test.jenkins.StartJob
