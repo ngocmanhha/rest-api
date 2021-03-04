@@ -1,4 +1,4 @@
-@Library('my-shared-library')
+@Library('my-shared-libraries')
 
 import com.test.jenkins.GlobalVars
 import com.test.jenkins.StartJob
