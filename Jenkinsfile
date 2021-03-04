@@ -11,7 +11,7 @@ import com.test.jenkins.StartJob
                 echo 'Hello, world'
                 sayHello 'Job 0'
 
-                echo 'The value of foo is : ' + GlobalVars.foo
+                echo 'The value of foo is : ' + GlobalVars.name
 
                 def startJob = new StartJob();
                 startJob.jobname = "Job 1";
