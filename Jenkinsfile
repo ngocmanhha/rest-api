@@ -3,11 +3,11 @@
 import com.test.jenkins.GlobalVars
 import com.test.jenkins.StartJob
 
-pipeline {
-    agent any
-    stages {
-        stage('Demo') {
-            steps {
+// pipeline {
+//     agent any
+//     stages {
+//         stage('Demo') {
+//             steps {
                 echo 'Hello, world'
                 sayHello 'Job 0'
 
@@ -18,7 +18,7 @@ pipeline {
                 echo 'Before set: ' + startJob.jobname
                 startJob.setJobName("Job 2")
                 echo 'After set: ' + startJob.jobname
-            }
-        }
-    }
-}
+//             }
+//         }
+//     }
+// }
