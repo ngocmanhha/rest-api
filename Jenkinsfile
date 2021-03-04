@@ -4,7 +4,7 @@ import com.test.jenkins.GlobalVars
 import com.test.jenkins.StartJob
 import com.test.jenkins.Pipeline
 
-Pipeline.run()
+Pipeline.resolve(this).run()
 // echo 'Hello, world'
 // sayHello 'Job 0'
 
