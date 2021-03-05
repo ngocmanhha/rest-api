@@ -1,7 +1,7 @@
 import express from 'express';
 
 const app = express();
-const host = "localhost";
+const host = "0.0.0.0";
 const port = 3000;
 
 app.get('/', (req, res) => {
@@ -13,7 +13,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(port, host, () => {
-    // if (err)
-    //     console.error(err);
     return console.log(`Server is listening on ${port}`);
 });
