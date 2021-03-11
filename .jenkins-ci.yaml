@@ -1,0 +1,4 @@
+pipeline:
+  build:
+    timeout:
+      time: 1
