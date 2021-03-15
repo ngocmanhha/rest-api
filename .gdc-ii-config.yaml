@@ -11,3 +11,7 @@ microservices:
       cacheFromTag: 'latest'
 customConstants:
   jenkinsSlaveLabel: master
+  pipeline:
+    timeout:
+      time: 10
+      unit: mics
