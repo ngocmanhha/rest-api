@@ -14,4 +14,4 @@ customConstants:
   pipeline:
     timeout:
       time: 10
-      unit: mics
+      unit: m
