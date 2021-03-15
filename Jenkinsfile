@@ -1,4 +1,4 @@
-@Library('pipelines-shared-libs@SETI-4985-TEST')_
+@Library('pipelines-shared-libs-2')_
 import com.gooddata.pipeline.Pipeline
 Pipeline.resolve(this).run()
 
