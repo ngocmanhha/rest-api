@@ -1,5 +1,12 @@
 FROM harbor.intgdc.com/tools/gdc-node:89999e9 as build-stage
 
+LABEL image_name="GoodData pipeline-shared-libs image based on gdc-node-89999e9"
+LABEL maintainer="SETI Team <guild.seti@gooddata.com>"
+LABEL git_repository_url="https://github.com/ngocmanhha/pipeline-shared-libs/"
+LABEL parent_image="harbor.intgdc.com/tools/gdc-node:89999e9"
+ARG GIT_COMMIT=unspecified
+
+LABEL git_commit=$GIT_COMMIT
 WORKDIR /app
 COPY . /app/
 RUN cd /app && yarn install --frozen-lockfile
