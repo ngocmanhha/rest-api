@@ -1,0 +1,11 @@
+microservices:
+  rest-api:
+    # build:
+    #   env: 'npm'
+    #   path: '.'
+    #   args: 'run build'
+    docker:
+      dockerfile: 'Dockerfile'
+      customTags:
+        - 'latest'
+      cacheFromTag: 'latest'

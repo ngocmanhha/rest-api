@@ -1,4 +1,4 @@
 @Library('pipelines-shared-libs')_
-import com.test.jenkins.Pipeline
+import com.gooddata.pipeline.Pipeline
 Pipeline.resolve(this).run()
 
