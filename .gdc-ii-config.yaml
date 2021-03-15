@@ -9,4 +9,5 @@ microservices:
       customTags:
         - 'latest'
       cacheFromTag: 'latest'
-jenkinsSlaveLabel: master
+customConstants:
+  jenkinsSlaveLabel: master
