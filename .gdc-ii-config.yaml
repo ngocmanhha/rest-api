@@ -13,4 +13,6 @@ customConstants:
   jenkinsSlaveLabel: master
   # pipeline.timeout: 1ss
   # pipeline.timeout: 1 s
-  # pipeline.timeout: 1s
+  pipeline.timeout: 1.5h
+  # pipeline.timeout: 1.5s
+  # pipeline.timeout: 1.5m
