@@ -11,4 +11,4 @@ microservices:
       cacheFromTag: 'latest'
 customConstants:
   jenkinsSlaveLabel: master
-  pipeline.timeout.time: 10s
+  pipeline.timeout: 10s
